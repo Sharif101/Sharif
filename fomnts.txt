@@ -1,0 +1,19 @@
+font-family: 'Open Sans', sans-serif;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Oswald', sans-serif;
+
+
+#181818
+
+
+ <ul>
+                  <li>- Using javascript</li>
+                  <li>- Basic knowledge of HTML and CSS</li>
+                  <li>- JQuery Plugin</li>
+                  <li>- Database / My SQL</li>
+                  <li>- Using github tools</li>
+                  <li>- Video editiing</li>
+                  <li>- Basic knowledge of photoshop</li>
+                  <li>- Photo compositing and manipulation</li>
+                </ul>

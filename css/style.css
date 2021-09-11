@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a
+{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p
+{
+    margin: 0;
+    padding: 0;
+}
+
+ol,ul
+{
+    list-style: none;
+}
+
+body,html{
+    overflow-x: hidden;
+}
+
+
+/* navbar part */
+
+nav
+{
+    background: #08080c;
+    position: relative;
+}
+
+nav img
+{
+    width: 50%;
+}
+nav ul li
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    transition: .6s;
+}
+
+nav ul li a
+{
+    color:#da8908 !important;  
+    margin-right: 10px;
+}
+
+/* navbar end */
+
+/* banner part start */
+
+#banner_part
+{
+    background: #08080c;
+    color: #fff;
+    
+}
+
+#banner_part .item
+{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+#banner_part .item .img img
+{
+    width: 100%;
+}
+#banner_part .item .img
+{
+    position: absolute;
+    top: 0;
+    left: 27%;
+}
+
+#banner_part .text
+{
+    padding-left: 55px;
+}
+
+#banner_part .item .text h1
+{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 85px;
+    font-weight: 400;
+    letter-spacing: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: #da8908;
+    padding-top: 1px;
+    
+}
+#banner_part .item .text h3
+{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #da8908;
+}
+
+#banner_part .item .text h5
+{
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    font-weight: 400;
+    padding-top: 11px;
+}
+
+#banner_part .item .text p
+{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    font-weight: 400;
+    z-index: 1;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+#banner_part .item .text ul
+{
+    padding-top: 25px;
+}
+
+#banner_part .item .text ul li
+{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 13px;
+    cursor: pointer;
+    transition: .6s
+}
+#banner_part .item .text ul li:hover
+{
+    background: #da8908;
+    border: 1px solid #da8908;
+    color: black;
+    -webkit-box-shadow: 10px 11px 29px 0px rgba(230,142,9,1);
+-moz-box-shadow: 10px 11px 29px 0px rgba(230,142,9,1);
+box-shadow: 10px 11px 29px 0px rgba(230,142,9,1);
+}
+
+#banner_part .introduction
+{
+    margin-top: 40px;
+}
+
+#banner_part .introduction h6
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+#banner_part .introduction h4
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+#banner_part .introduction p
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+#banner_part .introduction a
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #da8908;
+}
+
+/* banner part end */
+
+/* about part start */
+
+#about_part
+{
+    background: #181818;
+    color: #fff;
+    padding: 100px 0;
+}
+
+#about_part .about
+{
+    margin-top: 50px;
+}
+
+#about_part .about h2
+{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 55px;
+    font-weight: 400;
+}
+
+#about_part .about h3
+{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 55px;
+    font-weight: 400;
+}
+#about_part .about h4
+{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 55px;
+    font-weight: 400;
+    position: relative;
+}
+
+#about_part .about h4::before
+{
+    position: absolute;
+    content: '';
+    top: 85px;
+    left: 0;
+    width: 255px;
+    height: 10px;
+    background: #da8908;
+}
+
+#about_part .text
+{
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#about_part .text .peragraph p
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 55px;
+    line-height: 45px;
+}
+#about_part .text .tag h3
+{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 35px 0px;
+    text-transform: uppercase;
+}
+
+#about_part .text .skill
+{
+    display: flex;
+}
+#about_part .text .skill ul li
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+/* about part end */
+
+/* project part start */
+
+#project_part
+{
+    background: #08080c;
+    color: #fff;
+    padding: 100px 0;
+}
+
+#project_part .pro
+{
+    background: #181818;
+    padding: 25px;
+    margin-bottom: 40px;
+}
+#project_part .pro h4
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    color: #da8908;
+    text-transform: uppercase
+}
+
+#project_part .pro p
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#project_part .pro a
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: #da8908;
+    margin-top: 40px;
+
+}
+
+
+/* project part end */
+
+/* footer part start */
+
+#footer_part
+{
+    background: #181818;
+    color: #fff;
+    padding-top: 200px;
+    padding-bottom: 30px;
+}
+
+#footer_part .text
+{
+    text-align: center;
+}
+#footer_part .text h1
+{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 65px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    padding-bottom: 50px;
+}
+
+#footer_part .text h5
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+
+
+#footer_part .text h6
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+    position: relative;
+    cursor: pointer;
+}
+
+#footer_part .text h6:before
+{
+    content: '';
+    position: absolute;
+    top: 46%;
+    left: 43%;
+    height: 6px;
+    width: 157px;
+    background: #5433FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+#footer_part .text ul
+{
+    margin-left: -35px;
+    margin-top: 20px;
+}
+
+#footer_part .text ul li
+{
+    display: inline-block;
+    /* width: 45px;
+    height: 45px; */
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    /* border: 1px solid #fff; */
+    color: #fff;
+    /* border-radius: 50%; */
+    margin: 0 20px;
+    cursor: pointer;
+    transition: .6s
+}
+
+#footer_part .text p
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 100px;
+}
+
+
+/* footer part end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
